@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title> Registro </title>
+  <link rel="stylesheet" href="/css/Colors.css">
+</head>
+<body>
+  <h2> Registro </h2>
+  <form id="formulario">
+    <label>El Nombre: </label>
+    <input type="text" id="nombre" required>
+    <span class="error" id="errorNombre"></span>
+
+    <label>El Correo: </label>
+    <input type="email" id="correo" required>
+    <span class="error" id="errorCorreo"></span>
+
+    <label>La Edad: </label>
+    <input type="number" id="edad" required>
+    <span class="error" id="errorEdad"></span>
+
+    <button type="submit">Enviar</button>
+    <button type="button" id="cargar">Cargar último</button>
+    <p>Aqui puede ingresar como invitado</p>
+    <button onclick="location.href='http://127.0.0.1:3000/Html/Pagina.html?vscode-livepreview=true'"></button>
+  </form>
+  <div id="resultado"></div>
+  <script src="Code.js"></script>
+</body>
+</html>

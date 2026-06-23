@@ -1,0 +1,25 @@
+
+//Script utilizado para la creacion de la base de datos en laragon
+
+Create Database Registro_Db
+Use Registro_Db
+
+Create table Registro (
+    id_Usuario int auto_increment primary key,
+    Nombre Varchar(100) not null,
+    Correo Varchar(120) not null,
+    Edad int not null
+)
+
+insert into Registro values (
+    '1','Juan Pablo','Juan303@gmail.com','21'
+);
+
+insert into Registro values (
+    '2','Henry Cortes','HenCortes12@gmail.com','23'
+);
+
+insert into Registro values (
+    '3','Luis Romero','LuRomero18@gmail.com','30'
+);
+

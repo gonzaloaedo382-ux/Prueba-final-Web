@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(164, 203, 255);
+    border: 8px;
+    text-align: center;
+    border-radius: 8px solid;
+}
+
+input {
+  width: 80% ;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+
+form {
+  background: #87f89c;
+  padding: 20px;
+  border: 2px solid #8eff97;
+  border-radius: 8px;
+}
+
+h1 {
+    border-radius: 8px solid;
+    border: 1px solid black
+}

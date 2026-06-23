@@ -1,0 +1,6 @@
+//Codigos utilizados en el servidor para iniciar Git 
+git init 
+git clone <repository-Pagina.html>
+git status 
+git add <Ejercicios JS>
+git add
